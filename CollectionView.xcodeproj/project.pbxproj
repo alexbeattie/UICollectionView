@@ -12,6 +12,8 @@
 		8EF7C0331BEA643A0052770A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7C0311BEA643A0052770A /* Main.storyboard */; };
 		8EF7C0351BEA643A0052770A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7C0341BEA643A0052770A /* Assets.xcassets */; };
 		8EF7C0381BEA643A0052770A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7C0361BEA643A0052770A /* LaunchScreen.storyboard */; };
+		8EF7C0401BEA66D20052770A /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C03F1BEA66D20052770A /* PersonCell.swift */; };
+		8EF7C0421BEA85CF0052770A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C0411BEA85CF0052770A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8EF7C0341BEA643A0052770A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF7C0371BEA643A0052770A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EF7C0391BEA643A0052770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF7C03F1BEA66D20052770A /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		8EF7C0411BEA85CF0052770A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8EF7C0341BEA643A0052770A /* Assets.xcassets */,
 				8EF7C0361BEA643A0052770A /* LaunchScreen.storyboard */,
 				8EF7C0391BEA643A0052770A /* Info.plist */,
+				8EF7C03F1BEA66D20052770A /* PersonCell.swift */,
+				8EF7C0411BEA85CF0052770A /* Person.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF7C0401BEA66D20052770A /* PersonCell.swift in Sources */,
 				8EF7C0301BEA643A0052770A /* ViewController.swift in Sources */,
+				8EF7C0421BEA85CF0052770A /* Person.swift in Sources */,
 				8EF7C02E1BEA643A0052770A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
