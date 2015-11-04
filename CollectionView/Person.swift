@@ -13,7 +13,8 @@ class Person: NSObject {
     var image: String
     
     init(name: String, image: String) {
-        self.image = image
         self.name = name
+        self.image = image
+        
     }
 }

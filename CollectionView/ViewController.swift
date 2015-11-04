@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    var people = [Person]()
+  
     
     @IBOutlet weak var collectionView: UICollectionView!
+    
+    var people = [Person]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -81,7 +84,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         cell.name.text = person.name
         
         let path = getDocumentsDirectory().stringByAppendingPathComponent(person.image)
-
+        cell.imageView.image = UIImage(contentsOfFile: path)
+        
         cell.imageView.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).CGColor
         cell.imageView.layer.borderWidth = 2
         cell.imageView.layer.cornerRadius = 3
